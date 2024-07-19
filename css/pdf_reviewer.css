@@ -1,0 +1,31 @@
+/*styles to display the class="text" and the class="pdf" divs side by side
+* with the text on the left and the pdf on the right
+*/
+.text {
+    width: 45%;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #f1f1f1;
+}
+
+.pdf {
+    width: 45%;
+    height: fit-content;
+    float: right;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #f1f1f1;
+}
+
+.test_area {
+    width: 90%;
+    height: 1000px;
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #f1f1f1;
+}

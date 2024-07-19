@@ -1,0 +1,17 @@
+{
+  "name": "pdf_reviewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TJ Sayles",
+  "license": "Authorized Use Only",
+  "description": "This is a PDF reviewer application that loads a text file alongside a corresponding PDF file in a recent version of chrome or firefox and allows the user to edit and save a updated copy of the text file.",
+    "dependencies": {
+        "express": "^4.17.1",
+        "pdf-parse": "^1.1.1"
+    }
+
+}
