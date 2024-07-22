@@ -13,8 +13,8 @@ Installation
 To install the tool, you need to have Python 3.6 or higher installed on your system. You can install the tool using pip:
 
 ```bash
-#including link to the private GitHub repository
-pip install git+https://github.com/PowerLightTech/pdf_reviewer.git
+npm install https://github.com/PowerLightTech/pdf_reviewer.git --save
+
  
 
 ```
