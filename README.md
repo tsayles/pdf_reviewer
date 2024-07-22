@@ -7,16 +7,17 @@ Prerequisites
 -
 This tool requires node.js and npm to be installed on your system. You can download and install them from the official website: https://nodejs.org/en/download/
 
+Note this may require admin rights to install. 
 
 Installation
 ------------
-To install the tool, you need to have Python 3.6 or higher installed on your system. You can install the tool using pip:
+You can install the tool using the following command:
+
 
 ```bash
 npm install https://github.com/PowerLightTech/pdf_reviewer.git --save
 
  
-
 ```
 
 Usage
@@ -24,7 +25,7 @@ Usage
 To use the tool, you can run the following command:
 
 ```bash
-pdfreviewer <path_to_pdf>
+node server.js
 ```
 
 This will open a window where you can review the PDF file. You can use the arrow keys to navigate through the pages and the mouse to select text.
