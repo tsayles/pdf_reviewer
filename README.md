@@ -27,7 +27,7 @@ Usage
 To use the tool, you can run the following command:
 
 ```bash
-node server.js
+node .\node_modules\pdf_reviewer\server.js
 ```
 
 This will open a window where you can review the PDF file. You can use the arrow keys to navigate through the pages and the mouse to select text.

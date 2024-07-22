@@ -11,7 +11,9 @@ var path = require('path');
 
 // serve up the public directory
 app.use(express.static(path.join(__dirname, 'public')));
-app.use (express.static(path.join(__dirname, 'css')));
+// serve up the css directory at /css
+app.use('/css', express.static(path.join(__dirname, 'public/css')));
+
 
 // start the server on port 3000
 app.listen(3000, function() {
