@@ -13,5 +13,10 @@
     "express": "^4.17.1",
     "pdf_reviewer": "github:PowerLightTech/pdf_reviewer",
     "pdf-parse": "^1.1.1"
-  }
+  },
+  "files": [
+    "README.md",
+    "LICENSE.txt"
+  ]
 }
+
