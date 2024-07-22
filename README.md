@@ -1,0 +1,38 @@
+PDF Reviewer
+============
+This is a simple tool to review PDF files. It is written in Python and uses the PyMuPDF library to render the PDF files. 
+
+
+Prerequisites
+-
+This tool requires node.js and npm to be installed on your system. You can download and install them from the official website: https://nodejs.org/en/download/
+
+
+Installation
+------------
+To install the tool, you need to have Python 3.6 or higher installed on your system. You can install the tool using pip:
+
+```bash
+#including link to the private GitHub repository
+pip install git+https://github.com/PowerLightTech/pdf_reviewer.git
+ 
+
+```
+
+Usage
+-----
+To use the tool, you can run the following command:
+
+```bash
+pdfreviewer <path_to_pdf>
+```
+
+This will open a window where you can review the PDF file. You can use the arrow keys to navigate through the pages and the mouse to select text.
+
+License
+-------
+This tool is for authorized PLT only. See the LICENSE file for more information.
+```
+
+
+
