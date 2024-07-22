@@ -11,10 +11,11 @@ var path = require('path');
 
 // serve up the public directory
 app.use(express.static(path.join(__dirname, 'public')));
+app.use (express.static(path.join(__dirname, 'css')));
 
 // start the server on port 3000
 app.listen(3000, function() {
-  console.log('Server listening on port 3000');
+  console.log('Server listening on http://localhost:3000');
 });
 
 
