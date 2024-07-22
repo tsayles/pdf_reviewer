@@ -20,8 +20,7 @@
     "server.js",
     "package.json",
     "package-lock.json",
-    "public",
-    "css/**/*"
+    "public/**/*"
   ]
 }
 
