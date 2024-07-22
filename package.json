@@ -16,7 +16,12 @@
   },
   "files": [
     "README.md",
-    "LICENSE.txt"
+    "LICENSE.txt",
+    "server.js",
+    "package.json",
+    "package-lock.json",
+    "public",
+    "css/**/*"
   ]
 }
 
