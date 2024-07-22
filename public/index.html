@@ -34,7 +34,9 @@
         // ** get text_file and pdf_file as parameters from the url
         // Use typescript as the preferred language for the project
         // Use the following code to get the parameters from the url
-        const document_path = "/pdf_reviewer/public/"
+        // const document_path = "/pdf_reviewer/public/"
+        const document_path = ""
+
         var url = new URL(window.location.href);
         var text_file = document_path + url.searchParams.get("text_filename");
         var pdf_file = document_path + url.searchParams.get("pdf_filename");
