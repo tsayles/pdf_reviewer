@@ -15,6 +15,8 @@ You can install the tool using the following command:
 
 
 ```bash
+md pdf_reviewer
+cd pdf_reviewer
 npm install https://github.com/PowerLightTech/pdf_reviewer.git --save
 
  
