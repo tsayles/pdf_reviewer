@@ -31,7 +31,27 @@ To use the tool, you can run the following command:
 node .\node_modules\pdf_reviewer\server.js
 ```
 
-This will open a window where you can review the PDF file. You can use the arrow keys to navigate through the pages and the mouse to select text.
+This will open a window where you can review the PDF file. You can use the arrow keys to navigate through the pages 
+and the mouse to select text.
+
+Invoice PDF Reviewer Protocol
+-----------------------------
+This tool works with a python script that extracts the text from the PDF file. The python 
+script is located in the python_scripts folder. The script package is called plt_?????????, 
+and in found on GitHub at https://github.com/PowerLightTech/plt_?????????. See the README.md
+file in the plt_????????? folder for more information on how to install and run the python
+script.
+
+The python script listens for a GET request on port 5000. This tool sends a GET request 
+to the python script, which returns the text extracted from the PDF file as a JSON string. 
+The text is then displayed as a form to allow the user to review the text.  When the user 
+submits the form, the text is sent back to the python script as a POST request. The python
+script then writes the text to a .csv file in the ????? folder.
+
+<!--- this image illustrates the protocol between the PDF Reviewer and the python script.
+![Protocol](InvoicePDFReviewerProtocol.PNG) --->
+![Protocol](InvoicePDFReviewerProtocol.PNG)
+
 
 License
 -------
